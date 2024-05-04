@@ -5,15 +5,15 @@
         <item name="colorPrimary" type="color">@color/black</item>
         <item name="colorPrimaryVariant" type="color">@color/black</item>
         <item name="android:statusBarColor" type="color">@color/black</item>
-
-
     </style>
 
     <style name="Theme.BottomNav" parent="Base.Theme.BottomNav"/>
 
+    <style name="Theme.BottomNav.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.BottomNav.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/purple_200</item>
     </style>
-
 
 </resources>
